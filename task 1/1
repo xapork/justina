@@ -1,5 +1,0 @@
-my_list = [1, 'house', 'whatt?', 23, '52.loch']
-
-changed_list = list(reversed(my_list))
-
-print(changed_list)
