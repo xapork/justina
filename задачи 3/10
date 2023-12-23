@@ -1,0 +1,10 @@
+def can_distribute_evenly(coins, num_children):
+    total_coins = sum(coins)
+    if total_coins % num_children == 0:
+        return True
+    else:
+        return False
+coins_array = [3, 6, 9]
+num_children = 3
+result = can_distribute_evenly(coins_array, num_children)
+print(result)
